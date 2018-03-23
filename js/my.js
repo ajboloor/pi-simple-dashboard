@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
     rawFile.send(null);
   }
-  readTextFile("data.json", function(text){
+  readTextFile("data_test.json", function(text){
     var data = JSON.parse(text);
     //console.log(data);
 
@@ -170,10 +170,10 @@ $(document).ready(function(){
       data: {
         datasets: [{
           data: [
-            20,
-            30,
-            30,
-            70
+            data.cpu.core1,
+            data.cpu.core2,
+            data.cpu.core3,
+            data.cpu.core4
           ],
           backgroundColor: [
             "#4D5360",
@@ -226,10 +226,10 @@ $(document).ready(function(){
       data: {
         datasets: [{
           data: [
-            30,
-            30,
-            30,
-            70
+            data.cpu.core1,
+            data.cpu.core2,
+            data.cpu.core3,
+            data.cpu.core4
           ],
           backgroundColor: "rgba(179,181,198,0.2)",
           borderColor: "#4D5360",
