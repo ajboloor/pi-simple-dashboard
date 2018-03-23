@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/my.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8"/>
+</head>
+
+<body>
+  <!--Import jQuery before materialize.js-->
+  <!-- Useful sciprt (materialize for overall UI, Mark for highlights) -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mark.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mark.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/my.js"></script>
+  <script type="text/javascript" src="js/mark.min.js"></script>
+  <script type="text/javascript" src="js/mark.js"></script>
+  <script type="text/javascript" src="js/Chart.bundle.js"></script>
+
+  <div class="row">
+    <nav>
+      <div class="nav-wrapper flow-text grey darken-3" style="text-align:center">
+        Pi Dashboard
+      </div>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="col s3">
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <div style="text-align: center;">
+            <span class="flow-text">Device Information</span>
+          </div>
+          <span class="flow-text" style="font-size:15px">
+            <p id="device_name">Name: wolf-pi</p>
+            <p id="device_OS">OS: Raspbian GNU/Linux 9 (stretch)</p>
+            <p id="device_internet">Internet: True</p>
+            <p id="device_uptime">Uptime: 3d28h30m</p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <canvas id="chart_SD_storage" />
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <canvas id="chart_HDD_storage" />
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <canvas id="chart_RAM" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:-1em;">
+    <div class="col s4">
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <canvas id="chart_tempC" />
+        </div>
+      </div>
+    </div>
+    <div class="col s4">
+      <div id="canvas-holder">
+        <div class="card-panel">
+          <canvas id="chart_CPU" />
+        </div>
+      </div>
+    </div>
+    <div class="col s4">
+
+      <div class="card-panel">
+        <div id="canvas-holder">
+          <canvas id="chart_CPU_radar" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

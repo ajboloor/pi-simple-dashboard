@@ -1,0 +1,1 @@
+{"device": {"uptime": "3d28h30m", "OS": "Raspbian GNU/Linux 9 (stretch)", "name": "potato", "internet": "Online"}, "RAM": {"avail": 100, "used": 45}, "storage": {"HDD": {"avail": 1000, "used": 300}, "SD": {"avail": 100, "used": 45}}, "temperature": {"internal": 40, "external": 15}}

@@ -1,0 +1,32 @@
+{
+  "device":
+  {
+    "name": "wolf-pi",
+    "OS": "Raspbian GNU/Linux 9 (stretch)",
+    "internet": "Online",
+    "uptime": "3d28h30m"
+  },
+  "temperature":
+  {
+    "internal": 40,
+    "external": 15
+  },
+  "storage":
+  {
+    "SD":
+    {
+      "used": 45,
+      "avail": 100
+    },
+    "HDD":
+    {
+      "used": 300,
+      "avail": 1000
+    }
+  },
+  "RAM":
+  {
+    "used": 45,
+    "avail": 100
+  }
+}

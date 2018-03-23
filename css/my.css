@@ -1,0 +1,50 @@
+.addbtn {
+    padding-left: 10px;
+    padding-top: 6px;
+    color: #FFF;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn {
+    padding-left: 10px;
+    padding-top: 6px;
+    color: #FFF;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.addbtn:hover {
+    color: #AAA;
+}
+
+.closebtn:hover {
+    color: #AAA;
+}
+
+mark.color1 {
+  padding: 0;
+  background: transparent;
+  background: linear-gradient(to right, #388e3c 50%, transparent 50%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all .5s ease;
+  color: #000;
+}
+
+mark.color2 {
+  padding: 0;
+  background: transparent;
+  background: linear-gradient(to right, #689f38 50%, transparent 50%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  transition: all .5s ease;
+  color: #000;
+}
+
+mark.animate {
+  background-position: left bottom;
+  color: #FFF;
+}
