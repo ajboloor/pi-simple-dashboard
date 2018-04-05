@@ -28,4 +28,4 @@ python -m SimpleHTTPServer 1234
 ```
 
 - You should see something like this:
-![Dashboard Screenshot](/media/screenshot.png?raw=true "Dashboard Screenshot")
+![Dashboard Screenshot](/media/screenshot.PNG?raw=true "Dashboard Screenshot")
